@@ -1,7 +1,10 @@
 #!/bin/bash
 sudo apt-get update
-mkdir /tmp/folder1
-touch /tmp/folder1/testfile1
-touch /tmp/folder1/testfile2
-touch /tmp/folder1/testfile3
+rm -rf /tmp/folder1
+rm -rf /tmp/folder
+
+mkdir /tmp/folder2
+touch /tmp/folder2/testfile1
+touch /tmp/folder2/testfile2
+touch /tmp/folder2/testfile3
 
