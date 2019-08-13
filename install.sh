@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -rf /tmp/folder
 sudo apt-get install -y tree
 mkdir /tmp/folder
 touch /tmp/folder/testfile1
