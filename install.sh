@@ -1,8 +1,10 @@
 #!/bin/bash
-sudo apt-get update
-rm -rf /tmp/folder2
-mkdir /tmp/folder3
-touch /tmp/folder3/testfile1
-touch /tmp/folder3/testfile2
-touch /tmp/folder3/testfile3
+sudo apt-get install tree
+rm -rf /tmp/folder3
+mkdir /tmp/folder
+touch /tmp/folder/testfile1
+touch /tmp/folder/testfile2
+touch /tmp/folder/testfile3
+tree /tmp/folder
+
 
